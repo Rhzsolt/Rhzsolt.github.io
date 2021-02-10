@@ -17,4 +17,26 @@ header {
 }
 .wrapper {
     max-width: 1000px;
+    margin: 0 auto;
+}
+.content{
+    background-color:yellowgreen;
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+nav{ width: 25%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+main{ width: 75%;
+    background-color: white;
+    float: left;
+
 }
