@@ -22,7 +22,9 @@ header {
 .content{
     background-color:yellowgreen;
 }
-.content::after {
+.content::after ,
+footer::after
+ {
     content: "";
     clear: both;
     display: table;
@@ -64,4 +66,32 @@ padding: 30px;
 }
 main p{
     line-height: 23px;
+}
+footer {
+    padding: 20px;
+}
+footer a {
+    color: black;
+}
+footer .left {
+    float: left;
+}
+footer .right {
+    float: right;
+}
+h1 { 
+   margin-top: 0; text-align:center;
+}
+h1 span{
+     font-size: 30px;
+    
+    background:rosybrown ;
+    color: green;
+    -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  border-left: 10px solid rosybrown;
+  border-right: 10px solid rosybrown;
+  border-bottom: 7px solid rosybrown;
+  line-height: 75px;
 }
