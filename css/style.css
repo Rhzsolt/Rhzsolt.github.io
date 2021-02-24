@@ -95,5 +95,6 @@ h1 span{
   border-bottom: 7px solid rosybrown;
   line-height: 75px;
 }
-.sor:hover{ color: red;
+.sor:hover{ font-size: 150%;
+    color: red;
     }
